@@ -5,13 +5,11 @@ import labmateImg from "../assets/img/labmate.png";
 import clutterhuckImg from "../assets/img/clutterhuck.jpg";
 import queueAutomataImg from "../assets/img/queue-automata.png";
 import statsImg from "../assets/img/stats.png";
-import queueAutomataPdf from "../assets/files/STALGCM_S13_DeGuzmanHo.pdf";
-import statsPdf from "../assets/files/STT101A_Group5_FinalManuscript.pdf";
 
 const workSamples = [
   {
     title: "CHAI-MET (CHAI - Management and Events Tracker)",
-    type: "Web App",
+    type: "Course Project",
     course: "CSSWENG - Software Engineering",
     description: "Comprehensive mobile-fronting web app that streamlines, digitalizes, and centralizes project monitoring, beneficiary interaction, and event coordination for the non-profit organization CHAI Taguig. Includes live app of the project (link found in GitHub repository).",
     image: chaiMetImg,
@@ -21,7 +19,7 @@ const workSamples = [
   },
   {
     title: "LabMate: Web-based Lab Reservation Application",
-    type: "Web App",
+    type: "Course Project",
     course: "CCAPDEV - Web Application Development",
     description: "Interactive web database app that that allows students to easily book and reserve computer seats across laboratory rooms in DLSU. Includes live web demo of the project (link found in GitHub repository).",
     image: labmateImg,
@@ -31,7 +29,7 @@ const workSamples = [
   },
   {
     title: "ClutterHuck (App Prototype)",
-    type: "App Prototype",
+    type: "Course Project",
     course: "STHCIUX - Human Computer Interactions",
     description: "A mobile app prototype that helps users sort, categorize, and donate their unused items through AI-assisted inventorying and a centralized hub of verified organizations and peer-to-peer options. It streamlines the decluttering process by making donation decisions faster, clearer, and more convenient. Includes a live functional Figma prototype (see Figma link).",
     image: clutterhuckImg,
@@ -47,7 +45,7 @@ const workSamples = [
     image: queueAutomataImg,
     technologies: ["JFLAP", "OverLeaf"],
     grade: "4.0",
-    link: queueAutomataPdf
+    link: "/eportfolio/files/STALGCM_S13_DeGuzmanHo.pdf"
   },
   {
     title: "Significance of Anxiety Levels and Gaming Playstyles in the Reliance on Gaming as a Coping Mechanism",
@@ -57,7 +55,7 @@ const workSamples = [
     image: statsImg,
     technologies: ["PHStat", "Excel"],
     grade: "4.0",
-    link: statsPdf
+    link: "/eportfolio/files/STT101A_Group5_FinalManuscript.pdf"
   },
 ];
 
