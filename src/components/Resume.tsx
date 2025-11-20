@@ -1,4 +1,5 @@
 import { Download, Briefcase, GraduationCap, Award, Code } from "lucide-react";
+import cvPdf from "../assets/files/CV_HO_DENISELIANA.pdf";
 
 export function Resume() {
   return (
@@ -14,7 +15,7 @@ export function Resume() {
             </p>
           </div>
             <a
-            href="/files/CV_HO_DENISELIANA.pdf"
+            href={cvPdf}
             download
             className="flex items-center gap-2 px-6 py-3 bg-red-700 text-white hover:bg-red-800 transition-colors border-2 border-stone-900 font-mono text-sm"
             >
@@ -26,7 +27,7 @@ export function Resume() {
         {/* Resume Content */}
         <div className="w-full" style={{ minHeight: "80vh" }}>
           <object
-            data="/files/CV_HO_DENISELIANA.pdf"
+            data={cvPdf}
             type="application/pdf"
             width="100%"
             height="100%"

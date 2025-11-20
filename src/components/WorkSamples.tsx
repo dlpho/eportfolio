@@ -1,5 +1,12 @@
 import { FileText, ExternalLink, Github, Image as ImageIcon, Link } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import chaiMetImg from "../assets/img/chai-met.png";
+import labmateImg from "../assets/img/labmate.png";
+import clutterhuckImg from "../assets/img/clutterhuck.jpg";
+import queueAutomataImg from "../assets/img/queue-automata.png";
+import statsImg from "../assets/img/stats.png";
+import queueAutomataPdf from "../assets/files/STALGCM_S13_DeGuzmanHo.pdf";
+import statsPdf from "../assets/files/STT101A_Group5_FinalManuscript.pdf";
 
 const workSamples = [
   {
@@ -7,7 +14,7 @@ const workSamples = [
     type: "Web App",
     course: "CSSWENG - Software Engineering",
     description: "Comprehensive mobile-fronting web app that streamlines, digitalizes, and centralizes project monitoring, beneficiary interaction, and event coordination for the non-profit organization CHAI Taguig. Includes live app of the project (link found in GitHub repository).",
-    image: "/img/chai-met.png",
+    image: chaiMetImg,
     technologies: ["React", "Typescript", "Tailwind CCS", "Firebase"],
     grade: "4.0",
     link: "https://github.com/Parum-Lucis/csswengS16chai"
@@ -17,7 +24,7 @@ const workSamples = [
     type: "Web App",
     course: "CCAPDEV - Web Application Development",
     description: "Interactive web database app that that allows students to easily book and reserve computer seats across laboratory rooms in DLSU. Includes live web demo of the project (link found in GitHub repository).",
-    image: "/img/labmate.png",
+    image: labmateImg,
     technologies: ["Javascript", "Node.js", "HTML", "CSS", "MongoDB"],
     grade: "4.0",
     link: "https://github.com/dlpho/CCAPDEV-LabMate"
@@ -27,7 +34,7 @@ const workSamples = [
     type: "App Prototype",
     course: "STHCIUX - Human Computer Interactions",
     description: "A mobile app prototype that helps users sort, categorize, and donate their unused items through AI-assisted inventorying and a centralized hub of verified organizations and peer-to-peer options. It streamlines the decluttering process by making donation decisions faster, clearer, and more convenient. Includes a live functional Figma prototype (see Figma link).",
-    image: "/img/clutterhuck.jpg",
+    image: clutterhuckImg,
     technologies: ["Figma"],
     grade: "4.0",
     link: "https://www.figma.com/proto/Du8KlAeGrsZSz2f35nGWLk/STHCIUX-S17-Prototyping?node-id=609-4609&starting-point-node-id=609%3A4609&t=OfjgeDgA9pA6Tndn-1",
@@ -37,20 +44,20 @@ const workSamples = [
     type: "Research Paper",
     course: "STALGCM - Advanced Algorithms and Complexities",
     description: "Study of Queue Automata as a Turing-equivalent computational model, including its operational rules, language recognition capability, and potential applications in bioinformatics.",
-    image: "/img/queue-automata.png",
+    image: queueAutomataImg,
     technologies: ["JFLAP", "OverLeaf"],
     grade: "4.0",
-    link: "/files/STALGCM_S13_DeGuzmanHo.pdf"
+    link: queueAutomataPdf
   },
   {
     title: "Significance of Anxiety Levels and Gaming Playstyles in the Reliance on Gaming as a Coping Mechanism",
     type: "Research Paper",
     course: "STT101A - Foundation Course in Statistics",
     description: "This paper examines how gaming playstyles and motivations relate to anxiety levels using SPIN and GAD measures. Results show that gamers who play for enjoyment report lower anxiety than those who use gaming mainly for relaxation, and that social anxiety moderately aligns with overall anxiety. The study highlights how structured gaming habits may support mental health.",
-    image: "/img/stats.png",
+    image: statsImg,
     technologies: ["PHStat", "Excel"],
     grade: "4.0",
-    link: "/files/STT101A_Group5_FinalManuscript.pdf"
+    link: statsPdf
   },
 ];
 

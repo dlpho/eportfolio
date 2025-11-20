@@ -1,5 +1,6 @@
 import { Mail, Facebook, Instagram, Github, Linkedin, Phone, MapPin } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import profileImg from "../assets/img/IMG_20250518_232349_537.jpg";
 
 export function Hero() {
   return (
@@ -111,7 +112,7 @@ export function Hero() {
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-red-700/30"></div>
                 <div className="relative bg-stone-200 p-2 border-2 border-stone-900">
                 <ImageWithFallback
-                  src="/img/IMG_20250518_232349_537.jpg"
+                  src={profileImg}
                   alt="Profile"
                   className="w-full aspect-[4/5] object-cover grayscale"
                 />
