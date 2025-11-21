@@ -10,7 +10,7 @@ export function Resume() {
               Resume
             </h2>
             <p className="text-stone-600 mt-6 max-w-3xl">
-              A comprehensive overview of my education, experience, skills, and achievements.
+              A comprehensive overview of my education, experience, skills, and achievements. 
             </p>
           </div>
             <a

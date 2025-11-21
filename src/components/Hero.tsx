@@ -26,14 +26,12 @@ export function Hero() {
 
             <div className="space-y-6 text-stone-700 leading-relaxed mb-8">
               <p>
-                Welcome to my career e-portfolio. This comprehensive showcase demonstrates 
-                my journey as a computer science student, highlighting my skills, achievements, 
+                Welcome to my career e-portfolio! This comprehensive showcase demonstrates 
+                my works as a software technology student, which aims to highlight my skills, achievements, 
                 and aspirations in the field of technology and software development.
               </p>
               <p>
-                Through academic excellence, hands-on projects, and continuous learning, 
-                I am building a strong foundation for a career in software engineering, 
-                with a particular interest in [your specific interests].
+                Through academic excellence, hands-on projects, and constant learning, I am building a strong foundation for a career in software development, with a particular interest in data science, AI, and machine learning.
               </p>
             </div>
 
@@ -124,7 +122,7 @@ export function Hero() {
         {/* Bottom accent */}
         <div className="mt-20 pt-12 border-t-2 border-red-700">
           <p className="text-stone-600 italic text-center">
-            "The only way to do great work is to love what you do." — Steve Jobs
+            "Day after day, we find the will to find our way/ Knowing that the darkest skies will someday see the sun."
           </p>
         </div>
       </div>

@@ -91,14 +91,12 @@ export function WorkSamples() {
             Academic Work Samples
           </h2>
           <p className="text-stone-600 mt-6 max-w-3xl">
-            A showcase of my best academic work, demonstrating technical skills, 
-            problem-solving abilities, and commitment to quality.
+            A showcase of my best academic work that demonstrates programming skills, design capabilities, research competence, technical writing, and a consistent commitment to quality.
           </p>
         </div>
 
         {/* Featured Work Samples */}
         <div className="mb-20">
-          <h3 className="text-stone-900 mb-8 font-mono">Featured Projects</h3>
           <div className="grid lg:grid-cols-2 gap-8">
             {workSamples.map((sample, index) => (
               <div

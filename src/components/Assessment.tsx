@@ -10,9 +10,10 @@ export function Assessment() {
             <h2 className="text-stone-900 italic">APQ & PCK Assessment Results</h2>
           </div>
           <p className="text-stone-600 mt-6 max-w-3xl">
-            Results from my SAS2000 assessments, including the Academic Personality 
-            Questionnaire (APQ) and Profile Career Keys (PCK), which help identify my 
-            strengths, skills, and career alignment.
+            Results from my previous personal assessments, including the Adolescent
+            Personality Questionnaire (APQ) and Profiles Career Keys (PCK),
+            which outline my personality traits, work values, abilities, interests
+            and career alignment.
           </p>
         </div>
 
@@ -27,75 +28,89 @@ export function Assessment() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
+              {/* Career Type */}
               <div className="p-6 bg-red-50 border border-red-200">
                 <h4 className="text-stone-900 mb-3 font-mono">Career Type</h4>
-                <p className="text-red-700 mb-2">[Your Career Type - e.g., Investigative/Realistic]</p>
+                <p className="text-red-700 mb-2">Conventional–Investigative</p>
                 <p className="text-stone-600 text-sm">
-                  This career type aligns with my analytical nature and interest in 
-                  problem-solving through technology and hands-on work.
+                  This combination shows strong preference for structured work,
+                  detailed tasks, and problem solving. It aligns well with careers
+                  involving systems, analysis, databases and technical work.
                 </p>
               </div>
 
+              {/* Best Fit Careers */}
               <div className="p-6 bg-stone-100 border border-stone-300">
                 <h4 className="text-stone-900 mb-3 font-mono">Best Fit Careers</h4>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2 text-stone-700 text-sm">
                     <span className="w-1.5 h-1.5 bg-red-700 rounded-full"></span>
-                    Software Developer/Engineer
+                    Clinical Data Manager
                   </li>
                   <li className="flex items-center gap-2 text-stone-700 text-sm">
                     <span className="w-1.5 h-1.5 bg-red-700 rounded-full"></span>
-                    Data Analyst/Scientist
+                    Computer Programmer
                   </li>
                   <li className="flex items-center gap-2 text-stone-700 text-sm">
                     <span className="w-1.5 h-1.5 bg-red-700 rounded-full"></span>
-                    Systems Analyst
+                    Database Architect or Data Warehousing Specialist
                   </li>
                   <li className="flex items-center gap-2 text-stone-700 text-sm">
                     <span className="w-1.5 h-1.5 bg-red-700 rounded-full"></span>
-                    Web Developer
+                    Computer Network Support Specialist
+                  </li>
+                  <li className="flex items-center gap-2 text-stone-700 text-sm">
+                    <span className="w-1.5 h-1.5 bg-red-700 rounded-full"></span>
+                    Web Administrator
                   </li>
                 </ul>
               </div>
             </div>
 
+            {/* Key Strengths */}
             <div className="p-6 bg-stone-50 border-l-4 border-red-700">
               <h4 className="text-stone-900 mb-3 font-mono flex items-center gap-2">
                 <TrendingUp size={20} className="text-red-700" />
                 Key Strengths Identified
               </h4>
+
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
-                  <h5 className="text-red-700 mb-2 text-sm">Technical Skills</h5>
+                  <h5 className="text-red-700 mb-2 text-sm">Abilities</h5>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2 text-stone-600 text-sm">
                       <span className="text-red-700 mt-1">•</span>
-                      Problem-solving and analytical thinking
+                      Verbal reasoning (99th percentile)
                     </li>
                     <li className="flex items-start gap-2 text-stone-600 text-sm">
                       <span className="text-red-700 mt-1">•</span>
-                      Programming and software development
+                      Spatial ability (98th percentile)
                     </li>
                     <li className="flex items-start gap-2 text-stone-600 text-sm">
                       <span className="text-red-700 mt-1">•</span>
-                      Logical and systematic approach
+                      Arithmetic reasoning (95th percentile)
+                    </li>
+                    <li className="flex items-start gap-2 text-stone-600 text-sm">
+                      <span className="text-red-700 mt-1">•</span>
+                      Form perception and clerical accuracy (90 to 93 percentile)
                     </li>
                   </ul>
                 </div>
+
                 <div>
-                  <h5 className="text-red-700 mb-2 text-sm">Soft Skills</h5>
+                  <h5 className="text-red-700 mb-2 text-sm">Work Values</h5>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2 text-stone-600 text-sm">
                       <span className="text-red-700 mt-1">•</span>
-                      Attention to detail
+                      Strong drive for achievement
                     </li>
                     <li className="flex items-start gap-2 text-stone-600 text-sm">
                       <span className="text-red-700 mt-1">•</span>
-                      Independent learning ability
+                      Preference for supportive, structured environments
                     </li>
                     <li className="flex items-start gap-2 text-stone-600 text-sm">
                       <span className="text-red-700 mt-1">•</span>
-                      Persistence in solving complex problems
+                      Recognition and career progression opportunities
                     </li>
                   </ul>
                 </div>
@@ -108,59 +123,68 @@ export function Assessment() {
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-6">
             <Layers className="text-red-700" size={24} />
-            <h3 className="text-stone-900 italic">Reflection on PCK Results</h3>
+            <h3 className="text-stone-900 italic">Reflection on Assessment Results</h3>
           </div>
 
           <div className="bg-white border border-stone-300 p-8">
             <div className="space-y-6 text-stone-700 leading-relaxed">
               <p>
-                The Profile Career Keys assessment has provided valuable insights into my 
-                career alignment and natural aptitudes. The results confirm that my choice 
-                to pursue computer science is well-suited to my personality type and strengths.
+                The APQ and PCK assessments show a profile that blends technical
+                strengths, structured work preferences, and strong analytical
+                thinking. These results align closely with the direction I am
+                pursuing in the field of computing and information systems.
               </p>
-              
+
+              {/* Alignment */}
               <div className="p-6 bg-red-50 border-l-4 border-red-700">
                 <h4 className="text-stone-900 mb-3 italic">How This Aligns with My Goals</h4>
                 <p className="text-stone-700 mb-4">
-                  The assessment identified that I excel in roles requiring analytical thinking, 
-                  problem-solving, and technical expertise—all core competencies in software 
-                  development. This validation reinforces my commitment to pursuing a career 
-                  in this field.
+                 My strong profile in Conventional and Investigative interests 
+                 matches roles involving systems, data, and problem solving. 
+                 The Career Ability Profiler results confirm that I excel in 
+                 structured tasks, verbal analysis and spatial reasoning, which 
+                 are essential in fields like software development, data architecture, 
+                 analytics, and system administration. These strengths also align with 
+                 data science work because it requires analytical reasoning, pattern recognition,
+                  and consistent attention to detail.
                 </p>
                 <p className="text-stone-700">
-                  Understanding my strengths in [specific strength] and [specific strength] 
-                  has helped me focus my learning on areas where I can make the most impact, 
-                  such as [specific area] and [specific area].
+                  These findings support my long-term goal to work in software, data science, 
+                  and data-focused environments where I can apply methodical thinking and a 
+                  structured approach to complex technical problems.
                 </p>
               </div>
 
+              {/* Areas for Development */}
               <div className="p-6 bg-stone-50 border-l-4 border-stone-700">
                 <h4 className="text-stone-900 mb-3 italic">Areas for Development</h4>
                 <p className="text-stone-700 mb-4">
-                  While the assessment highlighted my technical strengths, it also revealed 
-                  areas where I can grow, particularly in [area to develop]. I am actively 
-                  working on these skills through [specific actions you're taking].
+                  The APQ shows that I am introverted and prefer less visible roles.
+                  This means I need to continue improving my communication,
+                  confidence and collaborative presence to better support my
+                  professional development.
                 </p>
                 <p className="text-stone-700">
-                  I recognize that becoming a well-rounded professional requires both 
-                  technical excellence and strong interpersonal skills. I am committed to 
-                  developing my communication, teamwork, and leadership abilities alongside 
-                  my technical expertise.
+                  I am working on developing assertiveness and social engagement
+                  by joining student organizations, seeking mentorship and
+                  practicing active participation in group work.
                 </p>
               </div>
 
+              {/* Key Takeaway */}
               <div className="p-6 bg-stone-100 border border-stone-400">
                 <p className="text-stone-700 italic">
-                  <strong className="text-red-700">Key Takeaway:</strong> The PCK assessment 
-                  has given me confidence that I am on the right career path while also 
-                  highlighting specific areas for growth. This self-awareness will guide my 
-                  professional development as I work toward becoming a skilled and adaptable 
-                  computer science professional.
+                  <strong className="text-red-700">Key Takeaway:</strong> My APQ and PCK
+                  results highlight a strong fit for analytical, structured,
+                  and technical career paths. These assessments give me a clear
+                  direction for growth and reinforce my commitment to careers in
+                  computing, data and technical problem solving.
                 </p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

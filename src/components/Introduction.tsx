@@ -22,13 +22,15 @@ export function Introduction() {
               <div>
                 <h3 className="text-stone-900 mb-3">About Me</h3>
                 <p className="text-stone-600 leading-relaxed">
-                  I am a [year] year computer science student at [University Name], 
-                  passionate about leveraging technology to solve real-world problems. 
-                  My journey in computer science began with [your story], and has 
-                  evolved into a deep commitment to continuous learning and innovation.
+                  I am a third year Software Technology student who enjoys working with ideas,
+                  structured systems, and detailed problem solving. I gravitate toward tasks 
+                  that involve analysis, accuracy, and clear processes. This has shaped the 
+                  way I approach both academics and real-world work, especially in areas 
+                  like data-driven problem solving and technical design.
+
                 </p>
                 <p className="text-stone-600 leading-relaxed mt-4">
-                  Outside of academics, I enjoy [your hobbies/interests], which help me 
+                  Outside of academics, I enjoy reading books, drawing digitally, playing online games, and playing musical instruments, which help me 
                   maintain a balanced perspective and bring creativity to my technical work.
                 </p>
               </div>
@@ -43,14 +45,18 @@ export function Introduction() {
               <div>
                 <h3 className="text-stone-900 mb-3">Career Goals</h3>
                 <p className="text-stone-600 leading-relaxed">
-                  My immediate goal is to secure an internship or entry-level position 
-                  in software engineering where I can apply my academic knowledge and 
-                  contribute to meaningful projects. I aim to work with innovative 
-                  companies that value creativity, collaboration, and continuous improvement.
+                   My immediate goal is to gain industry experience through internships in
+                  software engineering, data science, or technical research. I want to work 
+                  with projects that require analytical depth, structured thinking, and the 
+                  ability to design reliable, efficient systems.
+
                 </p>
                 <p className="text-stone-600 leading-relaxed mt-4">
-                  Long-term, I aspire to become a [your career aspiration] and contribute 
-                  to advancing technology in [specific field or industry].
+                   Long-term, I plan to build a career in software development and data science oriented fields 
+                  where I can combine technical skills, critical reasoning, and thoughtful 
+                  decision-making. I aim to maintain a sustainable work-life balance through 
+                  intentional planning, continuous learning, and active personal development.
+
                 </p>
               </div>
             </div>
@@ -66,19 +72,44 @@ export function Introduction() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700"><strong>Excellence:</strong> Striving for quality in every project and assignment</p>
+                <p className="text-stone-700">
+                  <strong>Technical Excellence:</strong> Delivering accurate, organized, and reliable work through careful analysis and attention to detail
+                </p>
               </li>
+
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700"><strong>Innovation:</strong> Seeking creative solutions to complex problems</p>
+                <p className="text-stone-700">
+                  <strong>Critical Thinking:</strong> Evaluating information objectively and making decisions based on evidence and clear reasoning
+                </p>
               </li>
+
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700"><strong>Collaboration:</strong> Working effectively in teams and learning from others</p>
+                <p className="text-stone-700">
+                  <strong>Innovation:</strong> Applying creative methods and technology to design solutions that meet emerging needs
+                </p>
               </li>
+
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700"><strong>Integrity:</strong> Maintaining ethical standards in all endeavors</p>
+                <p className="text-stone-700">
+                  <strong>Collaboration:</strong> Working effectively with peers while staying open to different viewpoints and shared learning
+                </p>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
+                <p className="text-stone-700">
+                  <strong>Integrity:</strong> Acting with honesty, accountability, and respect across academic and professional settings
+                </p>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
+                <p className="text-stone-700">
+                  <strong>Cultural Awareness:</strong> Engaging with people from diverse backgrounds and valuing traditions and perspectives that enrich my personal and professional identity
+                </p>
               </li>
             </ul>
           </div>
@@ -91,21 +122,35 @@ export function Introduction() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700">The challenge of solving complex technical problems</p>
+                <p className="text-stone-700">Solving complex problems through structured analysis and clear reasoning</p>
               </li>
+
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700">Creating technology that positively impacts people's lives</p>
+                <p className="text-stone-700">Working on data-driven tasks that require accuracy, detail, and focus</p>
               </li>
+
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700">Continuous learning and professional growth</p>
+                <p className="text-stone-700">Developing solutions that are reliable, practical, and meaningful</p>
               </li>
+
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
-                <p className="text-stone-700">Being part of a collaborative, innovative team</p>
+                <p className="text-stone-700">Gaining new skills through continuous learning and hands-on experience</p>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
+                <p className="text-stone-700">Working in environments that are organized, supportive, and growth-oriented</p>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-red-700 rounded-full mt-2 flex-shrink-0"></span>
+                <p className="text-stone-700">Using creative thinking and technology to design solutions for future needs</p>
               </li>
             </ul>
+
           </div>
         </div>
 
